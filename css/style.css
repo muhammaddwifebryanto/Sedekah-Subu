@@ -1,0 +1,316 @@
+.navbar{
+	box-shadow: 1px 1px 1px rgba(0,0,0,.5)
+}
+.jumbotron{
+	margin-top: 90px;
+}
+.header .jumbotron{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	height: 90vh;	
+	color: #fff;
+}
+.program{
+	min-height: 510px;
+	margin-top: 80px;
+}
+.program .box{
+	width: 90%;
+}
+.informasi{
+	min-height: 800px;
+}
+.informasi .b-box{
+	box-shadow:2px 3px 5px rgba(0,0,0.5);
+	border-radius: 10px; 
+	width:350px;
+	height: 300px;
+}
+.tim{
+	min-height: 550px;
+}
+.tim h3{
+	line-height: 100px;
+	margin: 0;
+}
+.tim .t-box img{
+	width: 300px;
+	height: 250px;
+}
+.tim hr{
+	background-color: skyblue;
+	display: inline-block;
+	width: 300px;
+}
+.bb-box{
+	box-shadow: 1px 3px 5px rgba(0,0,0.5);
+	width: 730px;
+	border-radius: 10px;
+	height: 300px;
+	background-image: url(../img/kegiatan.jpg);
+	background-size: cover;
+}
+.bb-box p{
+	color: #fff;
+	text-decoration: none;
+	line-height: 300px;
+	font-size: 50px;
+}
+.bb-box p a:hover{
+	text-decoration: none;
+}
+.kontak{
+	min-height:500px;
+	margin-top:50px;
+}
+.k-kontak{
+	display: flex;
+}
+.button{
+	margin-top: 20px;
+}
+
+.footer-area {
+  color: #fff;
+  padding-top: 100px;
+  background: #333 center;
+  background-size: cover;
+}
+
+.footer-area h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.copy-right-text i, .copy-right-text a {
+  color: #b68834;
+}
+
+.footer-social a {
+  padding-right: 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-social a:hover i {
+  color: skyblue;
+}
+
+.footer-social i {
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 991.98px) {
+  .footer-social {
+    text-align: left;
+  }
+}
+
+
+
+.single-footer-widget .bb-btn {
+  color: #b68834;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 0;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.single-footer-widget .info {
+  position: absolute;
+  margin-top: 20%;
+  color: #fff;
+  font-size: 12px;
+}
+
+.single-footer-widget .info.valid {
+  color: green;
+}
+
+.single-footer-widget .info.error {
+  color: red;
+}
+
+.single-footer-widget .click-btn {
+  background-color: #b68834;
+  color: #fff;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 8px 12px;
+  border: 0;
+}
+
+.single-footer-widget ::-moz-selection {
+  /* Code for Firefox */
+  background-color: #191919 !important;
+  color: #777777;
+}
+
+.single-footer-widget ::selection {
+  background-color: #191919 !important;
+  color: #777777;
+}
+
+.single-footer-widget ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #777777;
+  font-weight: 300;
+}
+
+.single-footer-widget :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.single-footer-widget ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #777777;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.single-footer-widget :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #777777;
+  font-weight: 300;
+}
+
+.single-footer-widget ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #777777;
+  font-weight: 300;
+}
+
+@media (max-width: 991.98px) {
+  .single-footer-widget {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .social-widget {
+    margin-top: 30px;
+  }
+}
+
+.footer-text {
+  padding-top: 20px;
+}
+
+.footer-text a, .footer-text i {
+  color: orange;
+}
+.footer-text a, .footer-text i:hover{
+  color:grey;
+}
+
+.whole-wrap {
+  background-color: #fff;
+}
+
+.generic-banner {
+  background-color: #b68834;
+  text-align: center;
+}
+
+.generic-banner .height {
+  height: 600px;
+}
+
+@media (max-width: 767.98px) {
+  .generic-banner .height {
+    height: 400px;
+  }
+}
+
+.generic-banner .generic-banner-content h2 {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content h2 br {
+    display: none;
+  }
+}
+
+.generic-banner .generic-banner-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content p br {
+    display: none;
+  }
+}
+
+.generic-content h1 {
+  font-weight: 600;
+}
+
+.about-generic-area {
+  background: #fff;
+}
+
+.about-generic-area p {
+  margin-bottom: 20px;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.section-top-border {
+  padding: 70px 0;
+  border-top: 1px dotted #eee;
+}
+
+.switch-wrap {
+  margin-bottom: 10px;
+}
+
+.switch-wrap p {
+  margin: 0;
+}
+
+/*********************************
+Galang Dana
+*********************************/
+.dana{
+	margin-left: 350px;
+	background:#eaeaea;
+	width: 50%;
+	padding: 40px;
+	height: 100%;
+}
+.galangdana{
+  margin-top: 150px;
+	min-height: 700px;
+}
+/**********************************
+Donasi
+***********************************/
+.d-donasi{
+  margin-left: 350px;
+  background:#eaeaea;
+  width: 50%;
+  padding: 40px;
+  height: 10%;
+}
+.donasi{
+  margin-top: 150px;
+  min-height: 700px;
+}
